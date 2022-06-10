@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Squareup.com</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+    integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+    integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+
+
+  <!-- FontAwesome 5.15.3 CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- (Optional) Use CSS or JS implementation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"
+    integrity="sha512-RXf+QSDCUQs5uwRKaDoXt55jygZZm2V++WUZduaU/Ui/9EGp3f/2KZVahFZBKGH0s774sd3HmrhUy+SgOFQLVQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light ">
+      <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" class="square-icon" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
+        </svg>Square</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Products <span class="sr-only">(current)</span></a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Commerce</a>
+              <a class="dropdown-item" href="#">Customer</a>
+              <a class="dropdown-item" href="#">Banking</a>
+              <a class="dropdown-item" href="#">Staff</a>
+              <a class="dropdown-item" href="#">Developers</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Business Type
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Retail</a>
+              <a class="dropdown-item" href="#">Food and beverage</a>
+              <a class="dropdown-item" href="#">Professional Services</a>
+              <a class="dropdown-item" href="#">Large Businesses</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navbarDropdown">Why Square?</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Resources</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Pricing</a>
+              <a class="dropdown-item" href="#">Support</a>
+              <a class="dropdown-item" href="#">Blogs</a>
+              <a class="dropdown-item" href="#">What's New?</a>
+            </div>
+          </li>
+        </ul>
+        <div class="navbar-text">
+          <span class="sign-in"> Sign in </span>
+          <span class="shop">
+            Shop
+          </span>
+          <span class="cart"> <i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row" id="first-section">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <h1 id="main-heading"> Power your business with Square.</h1>
+          <p> Millions of companies use Square to take payments, manage staff, and conduct business in-store and
+            online.</p>
+          <button class="main-button"> Get Started Free </button>
+          <button class="main-button-2"> Contact Sales </button>
+
+          <div class=" video-section">
+            <p>See how a business owner uses Square. </p>
+            <a href="#"> Play Video <svg xmlns="http://www.w3.org/2000/svg" class="play" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg></a>
+          </div>
+
+        </div>
+        <div class="col-lg-6" id="section-1-img">
+
+          <marquee behavior="" Scrollamount="30" direction="up" style="height: 100%;">
+
+            <img src="pexels-samer-daboul-1229456.jpg" alt="" class="marque-images">
+            <img src="pexels-pixabay-209151.jpg" alt="" class="marque-images">
+            <img src="pexels-daniel-frese-1055379.jpg" alt="" class="marque-images">
+
+
+          </marquee>
+
+
+        </div>
+
+
+
+
+      </div>
+
+
+      <div class="col-lg-8 col-md-12 col-sm-12">
+        <h1 class="second-heading"> Tools that connect every
+          side of your business.</h1>
+      </div>
+      <article>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Commerce</h5>
+                <p class="card-text">Sell in-person, online, or from anywhere. Take secure payments from
+                  customer,clients and more.
+                </p>
+                <a href="#"> Explore customer Directory <i class="fas fa-arrow-right"></i> </a>
+                <div class="card-nav">
+                  <a href="#" class="btn">Point of Sale</a>
+                  <a href="#" class="btn">Online Store</a>
+                  <a href="#" class="btn">Payments </a>
+                </div>
+                <img class="card-img-top" src="pexels-pixabay-209151.jpg" alt="Card image cap" height="398px">
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Customers</h5>
+                <p class="card-text"> Keep customers coming back to your business with personal touches and rewards.</p>
+
+                <a href="#"> See commerce solutions <i class="fas fa-arrow-right"></i> </a>
+                <div class="card-nav">
+                  <a href="#" class="btn">Loyalty Program</a>
+                  <a href="#" class="btn">Email & SMS Marketing</a>
+                  <a href="#" class="btn">Message Hub</a>
+                </div>
+                <img class="card-img-top" src="pexels-tim-douglas-6567442.jpg" alt="Card image cap" height="398px">
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </article>
+      <article>
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Banking</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#"> Explore customer Directory <i class="fas fa-arrow-right"></i> </a>
+                <div class="card-nav">
+                  <a href="#" class="btn">Checking</a>
+                  <a href="#" class="btn">Savings</a>
+                  <a href="#" class="btn">Loans</a>
+                </div>
+                <img class="card-img-top" src="pexels-pixabay-209151.jpg" alt="Card image cap" height="398px">
+              </div>
+            </div>
+
+
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Staff</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's
+                  content.</p>
+                <a href="#"> See commerce solutions <i class="fas fa-arrow-right"></i> </a>
+                <div class="card-nav">
+                  <a href="#" class="btn">Team Management</a>
+                  <a href="#" class="btn ">Benefits</a>
+
+                </div>
+                <img class="card-img-top" src="pexels-ketut-subiyanto-4353591.jpg" alt="Card image cap" height="398px">
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </article>
+      <p class="bottom-line"> Block, Inc. is a financial services company, not a bank. Banking services are provided by
+        Square’s banking
+        affiliate, Square Financial Services, Inc. or Sutton Bank; Members FDIC. Loans are subject to approval.</p>
+
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+
+        <h1 class="third-heading">Solution sets for ever
+          business type and size.</h1>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <h4 id="retail"> Retail <i class="fas fa-arrow-right"></i></h4>
+          <p> All the retail tool you need for selling online and instore - from inventory, management, exchange and
+            more.
+          </p>
+
+          <h4> Food & beverage <i class="fas fa-arrow-right"></i></h4>
+          <p> All the retail tool you need for selling online and instore - from inventory, management, exchange and
+            more.
+          </p>
+
+          <h4> Professional Services <i class="fas fa-arrow-right"></i></h4>
+          <p> All the retail tool you need for selling online and instore - from inventory, management, exchange and
+            more.
+          </p>
+
+          <h4> Large Business <i class="fas fa-arrow-right"></i> </h4>
+          <p> All the retail tool you need for selling online and instore - from inventory, management, exchange and
+            more.
+          </p>
+
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12" id="right-column">
+          <div id="retail-image-2">
+            <img class="img-4" src="pexels-ketut-subiyanto-4353591.jpg" alt="Card image cap" height="396px"
+              width="100%">
+          </div>
+
+          <div id="retailimage">
+
+
+            <img class="img-5" src="pexels-daniel-frese-1055379.jpg" alt="Card image cap" height="300px" width="280px">
+            <img class="img-6" src="pexels-sameera-madusanka-1666529.jpg" alt="Card image cap" height="300px"
+              width="280px">
+
+          </div>
+
+        </div>
+
+      </div>
+      <div class="col-lg-4 col-md-12 col-sm-12">
+
+        <h1 class="fourth-heading">Meet the new Square Stand.</h1>
+      </div>
+
+      <img src="pexels-jess-bailey-designs-788946.jpg" alt="" height="600px" width="1200px">
+      <div class="col-lg-6 col-md-12 col-sm-12">
+
+        <h5>Built-in payments and a customer-driven
+          checkout, all in one powerful iPad POS.</h5>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12">
+
+        <h6> Explore more contactless hardware</h6>
+
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <div class="card">
+            <img class=" card-img-top" src="pexels-jessica-lewis-creative-583842.jpg" alt="Card image cap" width="411px"
+              height="300px">
+
+          </div>
+
+
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12">
+
+          <div class="card">
+            <img class=" card-img-top" src="pexels-samer-daboul-1229456 (1).jpg" alt="Card image cap" width="420px"
+              height="300px">
+
+          </div>
+
+
+        </div>
+
+        <div class="col-lg-4 col-md-12 col-sm-12">
+
+          <div class="card">
+            <img class=" card-img-top" src="pexels-pixabay-248528.jpg" alt="Card image cap" height="300px">
+
+          </div>
+
+
+        </div>
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+
+  </div>
+
+</body>
+
+</html>
